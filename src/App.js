@@ -7,10 +7,11 @@ import firebase from "firebase";
 import FlipMove from "react-flip-move";
 import SendIcon from '@material-ui/icons/Send';
 import { IconButton } from '@material-ui/core';
-
+import {Helmet} from "react-helmet"
 
 
 function App() {
+  const TITLE= "Moes Messesnger"
   
   const [input, setInput]= useState("");
   const [messages, setMessages]= useState([]);
@@ -52,6 +53,9 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+          <title>{ TITLE }</title>
+        </Helmet>
       <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Nanum+Brush+Script&family=Poiret+One&display=swap" rel="stylesheet"></link>
       <img className="logo" src="https://cdn.pixabay.com/photo/2017/06/10/07/21/chat-2389223_1280.png?"/>
      <h1>Moe's Messenger 🗣    </h1>
