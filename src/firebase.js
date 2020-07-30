@@ -12,9 +12,7 @@ const firebaseApp= firebase.initializeApp({
     messagingSenderId: process.env.MESG_ID,
     appId: process.env.APP_ID
 })
-console.log(process.env.REACT_APP_API_KEY)
-console.log(process.env.REACT_APP_MESG_ID)
-console.log(process.env.REACT_APP_APP_ID)
+
 
     const db= firebaseApp.firestore();
 
