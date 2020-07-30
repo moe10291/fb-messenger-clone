@@ -12,9 +12,18 @@
 }
 
 .message_userCard{
-    background-color: greenyellow !important;
+    background-color: rgb(173, 241, 94)!important;
+    font-size: 12px !important;
+   
 }
 
 .message_guestCard{
     background-color: skyblue !important;
+    
+}
+
+.logo {
+    margin-top: 1.5em;
+    width: 15vw;
+    
 }
