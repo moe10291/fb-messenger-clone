@@ -13,8 +13,6 @@ const firebaseApp= firebase.initializeApp({
     appId: process.env.APP_ID
 })
 
-console.log(process.env.STORAGE_BUCKET)
-console.log(process.env.API_KEY)
 
     const db= firebaseApp.firestore();
 
